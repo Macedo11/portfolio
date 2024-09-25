@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+:root {
+    --cor1: #dfc2a9;
+    --cor2: #4e3328;
+}
+
 * {
     font-family:Arial, Helvetica, sans-serif;
     margin: 0px;
@@ -13,17 +18,29 @@ h1, h2 {
     font-family: 'DM Sans';
 }
 
+header {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    display: block;
+}
+
 header>h1{
+    background-color: var(--cor2);
+    color: var(--cor1);
+    font-size: 2em;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.473);
     text-align: center;
-    background-color: lightgray;
     padding: 20px;
 }
 
+.apresentacao {
+    background-color: #A66946;
+}
 
 .container {
     margin: auto;
     padding: 6em 3em;
-    background-color: purple;
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -31,6 +48,7 @@ header>h1{
 
 .btns {
     background-color: blue;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342);
     border-radius: 20px;
     width: 100px;
     padding: 10px;
@@ -48,6 +66,7 @@ header>h1{
 .img-profile {
     width: 200px
 }
+
 /* Projetos */
 #projetos {
     max-width: 500px;
@@ -77,20 +96,25 @@ header>h1{
 
 /* Contatos */
 #contatos {
-    background-color: grey;
+    background-color: var(--cor2);
     text-align: center;
 }
 
 #contatos > h2 {
+    color: var(--cor1);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.308);
     font-size: 2.5em;
-    padding: 20px;
+    padding-top: 15px;
 }
 
 .icons {
-    padding: 40px 15px 40px;
+    padding: 20px 25px 40px; 
     display: inline-block;
 }
 
 .icons > a {
+    color: var(--cor1);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.349);
     text-decoration: none;
+    
 }
