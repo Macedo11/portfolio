@@ -93,22 +93,30 @@ header::after {
 /* SOBRE MIM */
 .div-sobre {
     text-align: center;
+    padding: 3em 0 ;
 }
 
 .sobre {
     font-size: 1.5em;
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
+.sobre > h1 {
+    padding-bottom: 1em;
+}
+
 .sobre > p {
-    text-align: justify;
+    color:  #3d3228;
+    text-shadow: 1px 2px 1px rgba(211, 208, 208, 0.281);
+    text-align:left;
 }
 
 
 /* PROJETOS */
 #projetos > h2 {
     font-size: 2em;
+    padding-bottom: 20px;
 }
 
 #projetos {
