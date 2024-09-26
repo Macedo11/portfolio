@@ -89,6 +89,23 @@ header::after {
     width: 260px
 }
 
+
+/* SOBRE MIM */
+.div-sobre {
+    text-align: center;
+}
+
+.sobre {
+    font-size: 1.5em;
+    width: 70%;
+    margin: auto;
+}
+
+.sobre > p {
+    text-align: justify;
+}
+
+
 /* PROJETOS */
 #projetos > h2 {
     font-size: 2em;
