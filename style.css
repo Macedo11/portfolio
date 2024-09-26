@@ -6,6 +6,8 @@
     --cor1: #dfc2a9;
     --cor2: #4e3328;
     --cor3: #A66946;
+
+    --font1: 'DM Sans';
 }
 
 * {
@@ -22,7 +24,7 @@ html {
 h1, h2 {
     color: var(--cor1);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.349);
-    font-family: 'DM Sans';
+    font-family: var(--font1);
 }
 
 header {
@@ -33,7 +35,7 @@ header {
     display: block;
 }
 
-header>h1{
+header > h1{
     font-size: 2em;
     text-align: center;
     padding: 20px;
@@ -51,6 +53,11 @@ header>h1{
 
 .intro > h1 {
     font-size: 3.5em;
+}
+
+.intro > p {
+    color: var(--cor2);
+    font-family: var(--font1);
 }
 
 .btns {
