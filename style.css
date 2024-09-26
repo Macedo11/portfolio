@@ -5,6 +5,7 @@
 :root {
     --cor1: #dfc2a9;
     --cor2: #4e3328;
+    --cor3: #A66946;
 }
 
 * {
@@ -13,12 +14,19 @@
     padding: 0px;
 }
 
+html {
+    background-color: var(--cor3);
+}
+
 /* Header */
 h1, h2 {
+    color: var(--cor1);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.349);
     font-family: 'DM Sans';
 }
 
 header {
+    background-color: var(--cor2);
     position: sticky;
     width: 100%;
     top: 0px;
@@ -26,16 +34,15 @@ header {
 }
 
 header>h1{
-    background-color: var(--cor2);
-    color: var(--cor1);
     font-size: 2em;
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.473);
     text-align: center;
     padding: 20px;
 }
 
+
+/* APRESENTAÇÃO */
 .apresentacao {
-    background-color: #A66946;
+   
 }
 
 .container {
@@ -67,7 +74,7 @@ header>h1{
     width: 200px
 }
 
-/* Projetos */
+/* PROJETOS */
 #projetos {
     max-width: 500px;
     margin: auto;
@@ -94,15 +101,13 @@ header>h1{
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
 }
 
-/* Contatos */
+/* CONTATOS */
 #contatos {
     background-color: var(--cor2);
     text-align: center;
 }
 
 #contatos > h2 {
-    color: var(--cor1);
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.308);
     font-size: 2.5em;
     padding-top: 15px;
 }
@@ -114,7 +119,5 @@ header>h1{
 
 .icons > a {
     color: var(--cor1);
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.349);
     text-decoration: none;
-    
 }
