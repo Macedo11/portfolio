@@ -46,7 +46,7 @@ header > h1{
 .container {
     margin: auto;
     padding: 6em 3em;
-    width: 60%;
+    width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -76,7 +76,7 @@ header > h1{
 }
 
 .img-profile {
-    width: 200px
+    width: 260px
 }
 
 /* PROJETOS */
