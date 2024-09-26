@@ -50,20 +50,21 @@ header>h1{
 }
 
 .intro > h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 .btns {
     background-color: var(--cor2);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342);
-    border-radius: 20px;
+    border-radius: 25px;
     width: 110px;
     padding: 10px;
+    margin-top: 15px;
 }
 
 .btns > a {
     color: var(--cor1);
-    font-weight: bolder;
+    padding: 5px;
     text-decoration: none;
 }
 
@@ -110,11 +111,16 @@ header>h1{
 }
 
 .icons {
-    padding: 20px 25px 40px; 
+    padding: 20px 40px 40px; 
     display: inline-block;
 }
 
 .icons > a {
     color: var(--cor1);
     text-decoration: none;
+}
+
+.logo {
+    width: 50px;
+    padding: 10px;
 }
