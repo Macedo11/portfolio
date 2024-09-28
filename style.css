@@ -47,7 +47,7 @@ header::after {
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 1px;
 }
 
 
@@ -185,7 +185,7 @@ header::after {
 }
 
 .icone-habilidades {   
-    width: 50px;
+    width: 65px;
     padding: 5px;
 }
 
@@ -193,6 +193,8 @@ header::after {
 #contatos {
     background-color: var(--cor2);
     text-align: center;
+    bottom: 0;
+    width: 100%;
 }
 
 #contatos > h2 {
