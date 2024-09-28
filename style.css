@@ -122,7 +122,7 @@ header::after {
 }
 
 #projetos {
-    max-width: 500px;
+    max-width: 315px;
     margin: auto;
     text-align: center;
     padding: 40px;
@@ -138,7 +138,7 @@ header::after {
 
 .img-projeto {
     padding-top: 5px;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .legenda-projeto {
@@ -191,7 +191,7 @@ header::after {
 
 /* CONTATOS */
 #contatos {
-    background-color: red;
+    background-color: var(--cor2);
     text-align: center;
     bottom: 0;
     width: 100%;
@@ -203,13 +203,13 @@ header::after {
 }
 
 .icons {
-    padding: 20px 30px 80px; 
+    padding: 30px 25px 80px; 
     display: inline-block;
 }
 
 .icons > a {
     color: var(--cor1);
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
 }
 
