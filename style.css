@@ -86,7 +86,9 @@ header::after {
 }
 
 .img-profile {
-    width: 260px
+    width: 220px;
+    border-radius: 50%;
+    border: solid 6px var(--cor2r );
 }
 
 
@@ -163,7 +165,7 @@ header::after {
 
 .div-habilidades {
     margin: auto;
-    width: 70%;
+    width: 80%;
     justify-content: center;
 }
 
@@ -183,7 +185,7 @@ header::after {
 }
 
 .icone-habilidades {   
-    width: 70px;
+    width: 50px;
     padding: 5px;
 }
 
