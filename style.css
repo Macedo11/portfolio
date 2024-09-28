@@ -111,7 +111,7 @@ header::after {
 .sobre > p {
     color:  #3d3228;
     text-shadow: 1px 2px 1px rgba(211, 208, 208, 0.281);
-    text-align:left;
+    text-align: center;
 }
 
 
@@ -198,12 +198,12 @@ header::after {
 }
 
 #contatos > h2 {
-    font-size: 2.5em;
-    padding-top: 15px;
+    font-size: 2.5rem;
+    padding-top: 4rem;
 }
 
 .icons {
-    padding: 20px 40px 40px; 
+    padding: 20px 30px 80px; 
     display: inline-block;
 }
 
