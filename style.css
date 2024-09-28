@@ -99,8 +99,8 @@ header::after {
 }
 
 .sobre {
-    font-size: 1.5em;
-    width: 60%;
+    font-size: 1.5rem;
+    width: 80%;
     margin: auto;
 }
 
@@ -116,38 +116,35 @@ header::after {
 
 
 /* PROJETOS */
-#projetos > h2 {
-    font-size: 2em;
+.section-projetos > h2 {
+    text-align: center;
+    font-size: 2rem;
     padding-bottom: 20px;
 }
 
-#projetos {
-    max-width: 315px;
+.projetos {
+    background-color: var(--cor2);
+    border: solid 5px var(--cor2);
+    width: 300px;
     margin: auto;
-    text-align: center;
-    padding: 40px;
 }
 
-.div-projeto {
-    background-color: var(--cor2);
-    box-shadow: 2px 2px 3px var(--cor1);
-    max-width: 410px;
+.div-projeto > p {
+    padding: 5px;
     margin: auto;
     text-align: center;
 }
 
 .img-projeto {
-    padding-top: 5px;
-    max-width: 300px;
+    width: 100%;
 }
 
 .legenda-projeto {
+    color: var(--cor1);
     font-family: var(--font1);
     font-size: 20px;
-    color: var(--cor1);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
     text-decoration: none;
-    padding: 5px;
 }
 
 
@@ -160,7 +157,7 @@ header::after {
 
 .section-habilidades > h2 {
     font-size: 2em;
-    padding: 2em;
+    padding: 1.5em;
 }
 
 .div-habilidades {
