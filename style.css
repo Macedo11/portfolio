@@ -191,7 +191,7 @@ header::after {
 
 /* CONTATOS */
 #contatos {
-    background-color: black;
+    background-color: red;
     text-align: center;
     bottom: 0;
     width: 100%;
@@ -209,10 +209,11 @@ header::after {
 
 .icons > a {
     color: var(--cor1);
+    font-size: 14px;
     text-decoration: none;
 }
 
 .logo {
-    width: 50px;
+    width: 40px;
     padding-bottom: 1rem;
 }
