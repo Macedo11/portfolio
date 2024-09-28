@@ -127,9 +127,10 @@ header::after {
 }
 
 .div-projeto {
+    background-color: var(--cor2);
+    box-shadow: 2px 2px 3px var(--cor1);
     max-width: 410px;
     margin: auto;
-    background-color: rgb(97, 97, 97);
     text-align: center;
 }
 
@@ -139,9 +140,12 @@ header::after {
 }
 
 .legenda-projeto {
-    text-decoration: none;
-    color: white;
+    font-family: var(--font1);
+    font-size: 20px;
+    color: var(--cor1);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
+    text-decoration: none;
+    padding: 5px;
 }
 
 
