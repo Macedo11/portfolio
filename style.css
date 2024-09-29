@@ -204,7 +204,7 @@ header::after {
 }
 
 .icone-habilidades {   
-    width: 3.2em;
+    width: 3.7em;
 }
 
 /* CONTATOS */
@@ -284,6 +284,10 @@ header::after {
 
     .icone-habilidades {
         width: 3.7em;
+    }
+
+    .logo {
+        width: 2.8em
     }
 }
 
