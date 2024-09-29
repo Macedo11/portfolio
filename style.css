@@ -93,7 +93,7 @@ header::after {
 
 @media (max-width: 795px) {
     .container {
-        width: 100%;
+        width: 85%;
         background-color: blue;
     }
 
@@ -103,7 +103,6 @@ header::after {
 
     .img-profile {
         width: 230px;
-        margin-right: 70px;
     }
 }
 
@@ -116,6 +115,7 @@ header::after {
     .img-profile {
         width: 200px;
         margin-top: 30px;
+        margin-right: 0px;
     }
 }
 
