@@ -110,6 +110,7 @@ header::after {
 
     .container {
         display: block;
+        width: 70%;
     }
 
     .img-profile {
