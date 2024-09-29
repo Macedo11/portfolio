@@ -183,9 +183,11 @@ header::after {
 
 .habilidade {
     background-color: var(--cor2);
+    width: 4.5em;
+    height: 6em;
     border-radius: 30px 0 0;
+    padding: 0.5em 1.2em 0;
     margin: 15px;
-    padding: 10px 20px;
     display: inline-block;
 
     transition: all 0.5s cubic-bezier(0.100, 0.50, 0.40, 1);
@@ -202,8 +204,7 @@ header::after {
 }
 
 .icone-habilidades {   
-    width: 65px;
-    padding: 5px;
+    width: 3.2em;
 }
 
 /* CONTATOS */
@@ -282,7 +283,7 @@ header::after {
     }
 
     .icone-habilidades {
-        width: 2.5em;
+        width: 3.7em;
     }
 }
 
