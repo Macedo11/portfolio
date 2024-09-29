@@ -11,7 +11,7 @@
 }
 
 * {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: var(--font1);
     margin: 0px;
     padding: 0px;
 }
@@ -23,8 +23,7 @@ html {
 /* Header */
 h1, h2 {
     color: var(--cor1);
-    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.349);
-    font-family: var(--font1);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.473);
 }
 
 header {
@@ -66,7 +65,6 @@ header::after {
 
 .intro > h2 {
     color: var(--cor2);
-    font-family: var(--font1);
     text-shadow: 1px 2px 1px #dfc2a979;
 }
 
@@ -108,7 +106,6 @@ header::after {
 }
 
 .sobre > p {
-    font-family: var(--font1);
     font-weight: 700;
     color:  #412920;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
@@ -131,7 +128,7 @@ header::after {
 }
 
 .div-projeto > p {
-    padding: 5px;
+    padding: 0.1em;
     margin: auto;
     text-align: center;
 }
@@ -142,8 +139,7 @@ header::after {
 
 .legenda-projeto {
     color: var(--cor1);
-    font-family: var(--font1);
-    font-size: 20px;
+    font-size: 1em;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
     text-decoration: none;
 }
@@ -178,7 +174,6 @@ header::after {
 .habilidade > p {
     color: var(--cor1);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
-    font-family: var(--font1);
     padding-bottom: 5px;
 }
 
@@ -216,41 +211,7 @@ header::after {
     padding-bottom: 1rem;
 }
 
-@media (max-width: 400px) {
-    .intro {
-        font-size: 14px;
-    }
-    
-    .sobre > p {
-        font-size: 0.8em;
-        width: 100%;
-    }
-}
-
-@media (max-width: 550px) {
-    
-    .container {
-        display: block;
-        width: 70%;
-    }
-    
-    .img-profile {
-        width: 200px;
-        margin-top: 30px;
-        margin-right: 0px;
-    }
-}
-
-
-@media (max-width: 622px) {
-    .container {
-        display: block;
-    }
-
-    .img-profile {
-        margin-top: 20px;
-    }
-}
+/* MEDIA QUERIES */
 
 @media (max-width: 795px) {
     .intro {
@@ -259,5 +220,27 @@ header::after {
     
     .img-profile {
         width: 230px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 622px) {
+    .container {
+        display: block;
+    }
+
+    .img-profile {
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+    .intro {
+        font-size: 1em;
+    }
+    
+    .sobre > p {
+        font-size: 0.8em;
+        width: 100%;
     }
 }
