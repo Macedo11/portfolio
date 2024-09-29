@@ -114,6 +114,14 @@ header::after {
     text-align: center;
 }
 
+@media (max-width: 400px) {
+    .sobre > p {
+        font-size: 0.8em;
+        width: 100%;
+        background-color: blue;
+    }
+}
+
 
 /* PROJETOS */
 .section-projetos > h2 {
