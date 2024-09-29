@@ -106,6 +106,7 @@ header::after {
 }
 
 .sobre > p {
+    font-size: 1em;
     font-weight: 700;
     color:  var(--cor1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
@@ -232,6 +233,11 @@ header::after {
     .img-profile {
         width: 200px;
     }
+    
+    .sobre > p {
+        font-size: 0.8em;
+        width: 100%;
+    }
 }
 
 @media (max-width: 300px) {
@@ -239,8 +245,4 @@ header::after {
         font-size: 1em;
     }
     
-    .sobre > p {
-        font-size: 0.8em;
-        width: 100%;
-    }
 }
