@@ -55,7 +55,7 @@ header::after {
 .container {
     margin: auto;
     padding: 6em 3em;
-    width: 65%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
 }
@@ -86,11 +86,37 @@ header::after {
 }
 
 .img-profile {
-    width: 220px;
+    width: 270px;
     border-radius: 50%;
     border: solid 6px var(--cor2);
 }
 
+@media (max-width: 765px) {
+    .container {
+        width: 90%;
+        background-color: blue;
+    }
+
+    .intro {
+        font-size: 0.7em;
+    }
+
+    .img-profile {
+        width: 250px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        display: block;
+        
+    }
+
+    .img-profile {
+        width: 200px;
+        margin-top: 30px;
+    }
+}
 
 /* SOBRE MIM */
 .div-sobre {
@@ -112,14 +138,6 @@ header::after {
     color:  #3d3228;
     text-shadow: 1px 2px 1px rgba(211, 208, 208, 0.281);
     text-align: center;
-}
-
-@media (max-width: 400px) {
-    .sobre > p {
-        font-size: 0.8em;
-        width: 100%;
-        background-color: blue;
-    }
 }
 
 
@@ -221,4 +239,14 @@ header::after {
 .logo {
     width: 40px;
     padding-bottom: 1rem;
+}
+
+@media (max-width: 400px) {
+
+
+    .sobre > p {
+        font-size: 0.8em;
+        width: 100%;
+        text-align: justify;
+    }
 }
