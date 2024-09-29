@@ -276,6 +276,14 @@ header::after {
         font-size: 0.8em;
         width: 100%;
     }
+
+    .habilidade > p {
+        font-size: 0.7em;
+    }
+
+    .icone-habilidades {
+        width: 2.5em;
+    }
 }
 
 @media (max-width: 300px) {
