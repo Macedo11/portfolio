@@ -30,8 +30,8 @@ header {
     background-color: var(--cor2);
     position: sticky;
     width: 100%;
+    z-index: 100;
     top: 0px;
-    display: block;
 }
 
 #header-container > h1{
@@ -76,7 +76,7 @@ header::after {
     padding: 10px;
     margin-top: 15px;
 
-    transition: all 0.5s cubic-bezier(0.100, 0.50, 0.44, 1)
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.44, 1)
 }
 
 .btns:hover {
@@ -93,7 +93,7 @@ header::after {
     width: 250px;
     border-radius: 50%;
     border: solid 6px var(--cor2);
-    transition: all 0.5s cubic-bezier(0.100, 0.50, 0.40, 1);
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
 .img-profile:hover {
@@ -138,7 +138,7 @@ header::after {
     width: 300px;
     margin: auto;
 
-    transition: all 0.5s cubic-bezier(0.100, 0.50, 0.40, 1);
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
 .projetos:hover {
@@ -223,7 +223,7 @@ header::after {
     padding: 30px 25px 80px; 
     display: inline-block;
 
-    transition: all 0.5s cubic-bezier(0.100, 0.50, 0.40, 1);
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
 .icons:hover {
@@ -237,7 +237,7 @@ header::after {
 }
 
 .logo {
-    width: 40px;
+    width: 4em;
     padding-bottom: 1rem;
 }
 
