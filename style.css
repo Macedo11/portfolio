@@ -216,14 +216,14 @@ header::after {
     padding-bottom: 1rem;
 }
 
-
-@media (max-width: 795px) {
+@media (max-width: 400px) {
     .intro {
-        font-size: 0.8em;
+        font-size: 14px;
     }
     
-    .img-profile {
-        width: 230px;
+    .sobre > p {
+        font-size: 0.8em;
+        width: 100%;
     }
 }
 
@@ -241,13 +241,23 @@ header::after {
     }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 622px) {
+    .container {
+        display: block;
+    }
+
+    .img-profile {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 795px) {
     .intro {
-        font-size: 14px;
+        font-size: 0.7em;
     }
     
-    .sobre > p {
-        font-size: 0.8em;
-        width: 100%;
+    .img-profile {
+        width: 230px;
     }
 }
