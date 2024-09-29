@@ -228,12 +228,21 @@ header::after {
 @media (max-width: 622px) {
     .container {
         display: block;
+        text-align: center;
+    }
+
+    .intro > h2 {
+        margin-bottom: 20px;
+    }
+
+    .btns {
+        margin: auto;
     }
 
     .img-profile {
         width: 200px;
     }
-    
+
     .sobre > p {
         font-size: 0.8em;
         width: 100%;
