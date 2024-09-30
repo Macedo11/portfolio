@@ -302,9 +302,11 @@ header::after {
         width: 200px;
     }
 
+    .sobre {
+        width: 90%;
+    }
     .sobre > p {
         font-size: 0.8em;
-        width: 100%;
     }
 
     .habilidade > p {
