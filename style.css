@@ -61,6 +61,7 @@ header::after {
 }
 
 #header-container > a{
+    padding-top: 10px;
     color: var(--cor1);
     font-family: var(--font1);
     font-weight: 800;
@@ -72,11 +73,40 @@ header::after {
     color: var(--cor1);
     border-radius: 50%;
     padding: 0.2em;
+    cursor: pointer;
+    z-index: 100;
 }
 
 #burguer:hover {
     background-color: var(--cor1);
     color: var(--cor2);
+}
+
+#list {
+    display: none;
+    
+}
+
+ #list > ul {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.733);
+    list-style: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#list a{
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
 }
 
 /* APRESENTAÇÃO */
@@ -132,21 +162,21 @@ header::after {
 /* SOBRE MIM */
 .div-sobre {
     text-align: center;
-    padding: 3em 0 ;
+    padding: 1em 0 8em ;
 }
 
 .sobre {
-    font-size: 1.5rem;
     width: 80%;
     margin: auto;
 }
 
 .sobre > h1 {
+    font-size: 2em;
     padding-bottom: 1em;
 }
 
 .sobre > p {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 700;
     color:  var(--cor1);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
@@ -158,7 +188,7 @@ header::after {
 .section-projetos > h2 {
     text-align: center;
     font-size: 2rem;
-    padding-bottom: 20px;
+    padding-bottom: 1em;
 }
 
 .projetos {
@@ -195,13 +225,13 @@ header::after {
 /* HABILIDADES */
 .section-habilidades {
     text-align: center;
-    padding: 50px 15px 150px;
+    padding: 8em 0 8em;
     margin: auto;
 }
 
 .section-habilidades > h2 {
     font-size: 2em;
-    padding: 1.5em;
+    padding-bottom: 1em;
 }
 
 .div-habilidades {
@@ -305,6 +335,7 @@ header::after {
     .sobre {
         width: 90%;
     }
+
     .sobre > p {
         font-size: 0.8em;
     }
