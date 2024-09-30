@@ -20,8 +20,6 @@ html {
     background-color: var(--cor3);
 }
 
-
-
 ::-webkit-scrollbar {
     width: 0.5em;
     background-color: var(--cor2);
@@ -32,7 +30,7 @@ html {
 }
 
 /* Header */
-h1, h2 {
+h1, h2, p {
     color: var(--cor1);
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.473);
 }
@@ -45,12 +43,6 @@ header {
     top: 0px;
 }
 
-#header-container > h1{
-    font-size: 2rem;
-    text-align: center;
-    padding: 20px;
-}
-
 header::after {
     background-color: var(--cor1);
     content: "";
@@ -60,6 +52,32 @@ header::after {
     height: 2.5px;
 }
 
+#header-container {
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+#header-container > a{
+    color: var(--cor1);
+    font-family: var(--font1);
+    font-weight: 800;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+#burguer {
+    color: var(--cor1);
+    border-radius: 50%;
+    padding: 0.2em;
+}
+
+#burguer:hover {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
 
 /* APRESENTAÇÃO */
 .container {
