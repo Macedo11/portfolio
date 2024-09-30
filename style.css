@@ -20,6 +20,17 @@ html {
     background-color: var(--cor3);
 }
 
+
+
+::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: var(--cor2);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--cor1);
+}
+
 /* Header */
 h1, h2 {
     color: var(--cor1);
