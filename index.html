@@ -13,13 +13,13 @@
     <!-- CABEÇALHO -->
     <header>
         <div id="header-container">
-            <a href=""></a>
+            <a></a>
 
             <a href="#" id="aheader">
                 Portfólio
             </a>
 
-            <menu  id="list">
+            <nav  id="list">
                 <ul>
                     <li>
                         <a href="#">Sobre</a>
@@ -34,9 +34,9 @@
                         <a href="#">Contatos</a>
                     </li>
                 </ul>
-            </menu>
+            </nav>
 
-            <i id="burguer" class="material-symbols-outlined"  onclick="clicou()">
+            <i id="burguer" class="material-symbols-outlined" aria-label="Abrir Menu" onclick="clicou()">
                     menu
             </i>
         </div>
@@ -56,7 +56,7 @@
                         </h1>
                     </div>
                     <div class="btns">
-                        <a href="/files/cv-joao.pdf" download="cv-joao" id="cv">
+                        <a href="./cv-joao.pdf" download="cv-joao.pdf" id="cv">
                             Download CV
                         </a>
                     </div>
@@ -176,7 +176,7 @@
             var div = document.getElementById('list')
             var h1 = document.getElementById('aheader')
 
-            if (div.style.display == 'none') {
+            if (window.getComputedStyle(div).display === 'none') {
                 div.style.display = 'block'
                 h1.style.display = 'none'
 
