@@ -3,7 +3,7 @@
 </h1>
 
 <h2>
-    <a href='https://macedo11.github.io/portfolio-jr/'>
+    <a href='https://macedo11.github.io/portfolio/'>
         Link Portfólio
     </a>
 </h2>
