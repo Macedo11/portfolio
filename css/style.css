@@ -192,6 +192,11 @@ header::after {
 
 
 /* PROJETOS */
+.section-projetos {
+    width: 70%;
+    margin: auto;
+}
+
 .section-projetos > h2 {
     text-align: center;
     font-size: 2rem;
@@ -199,16 +204,16 @@ header::after {
 }
 
 .projetos {
-    background-color: var(--cor2);
-    border: solid 5px var(--cor2);
-    width: 300px;
-    margin: auto;
-
-    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.projetos:hover {
-    transform: scale(1.1, 1.1);
+.div-projeto {
+    background-color: var(--cor2);
+    border: solid 6px var(--cor2);
+    width: 300px;
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.50, 1);
 }
 
 .div-projeto > p {
@@ -216,6 +221,12 @@ header::after {
     margin: auto;
     text-align: center;
 }
+
+.div-projeto:hover {
+    transform: scale(1.1, 1.1);
+    
+}
+
 
 .img-projeto {
     width: 100%;
