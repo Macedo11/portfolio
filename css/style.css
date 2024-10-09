@@ -140,11 +140,11 @@ header::after {
 }
 
 .intro > h1 {
-    font-size: 3.5em;
+    font-size: 3.2em;
 }
 
 .intro > h1 > a {
-    font-size: 0.5em;
+    font-size: 0.4em;
     color: var(--cor2);
     text-shadow: 1px 1px 2px #dfc2a9b4;
 }
@@ -155,12 +155,7 @@ header::after {
     border-radius: 25px;
     width: 110px;
     padding: 10px 20px;
-    margin-top: 15px;
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.44, 1)
-}
-
-.btns:hover {
-    transform: scale(1.10, 1.10);
 }
 
 .btns > a {
@@ -169,8 +164,35 @@ header::after {
     text-decoration: none;
 }
 
+.btns:hover {
+    transform: scale(1.10, 1.10);
+}
+
+.info-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-icon-presentation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    width: 95px;
+}
+
+.div-icon-presentation > a > img {
+    width: 2.5em;
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
+}
+
+.div-icon-presentation > a > img:hover {
+    transform: scale(1.1, 1.1);
+}
+
 .img-profile {
-    width: 250px;
+    width: 300px;
     border-radius: 50%;
     border: solid 6px var(--cor2);
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);

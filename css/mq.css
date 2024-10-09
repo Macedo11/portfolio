@@ -5,7 +5,7 @@
 @media (max-width: 795px) {
     /* APRESENTAÇÃO */
     .intro {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
     
     .img-profile {
@@ -20,15 +20,27 @@
 }
 
 @media (max-width: 622px) {
+    /* APRESENTAÇÃO */
     .container {
         display: block;
         text-align: center;
+    }
+
+    /* SOBRE MIM */
+    .banner-sobre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .intro > h2 {
         margin-bottom: 20px;
     }
     
+    .info-presentation {
+        flex-direction: column;
+        gap: 10px;
+    }
 
     .btns {
         margin: auto;
@@ -46,6 +58,7 @@
         font-size: 0.8em;
     }
 
+    /* HABILIDADES */
     .habilidade > p {
         font-size: 0.7em;
     }
