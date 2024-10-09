@@ -6,7 +6,6 @@
     --cor1: #dfc2a9;
     --cor2: #4e3328;
     --cor3: #A66946;
-
     --font1: 'DM Sans';
 }
 
@@ -53,7 +52,7 @@ header::after {
 }
 
 #header-container {
-    height: 4em;
+    height: 3.7em;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,11 +88,9 @@ header::after {
 
 #list {
     display: none;
-    
 }
 
-#list > ul {
-    
+#list > ul {   
     background-color: rgba(0, 0, 0, 0.733);
     list-style: none;
     position: fixed;
@@ -101,7 +98,6 @@ header::after {
     left: 0;
     width: 100vw;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +131,7 @@ header::after {
 /* APRESENTAÇÃO */
 .container {
     margin: auto;
-    padding: 6em 3em;
+    padding: 6.6em 3em;
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -158,7 +154,6 @@ header::after {
     width: 110px;
     padding: 10px 20px;
     margin-top: 15px;
-
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.44, 1)
 }
 
@@ -186,7 +181,16 @@ header::after {
 /* SOBRE MIM */
 .div-sobre {
     text-align: center;
-    padding: 1em 0 8em ;
+    padding: 2em 0 8em ;
+    position: relative;
+}
+
+.div-sobre:before {
+    content: "";
+    display: block;
+    height: 30px;
+    margin-top: 30px;
+    visibility: hidden;
 }
 
 .sobre {
@@ -211,6 +215,7 @@ header::after {
 /* PROJETOS */
 .section-projetos {
     width: 80%;
+    padding-top: 4em;
     margin: auto;
 }
 
@@ -243,7 +248,6 @@ header::after {
 
 .div-projeto:hover {
     transform: scale(1.1, 1.1);
-    
 }
 
 
@@ -285,7 +289,6 @@ header::after {
     padding: 0.5em 1.2em 0;
     margin: 15px;
     display: inline-block;
-
     transition: all 0.5s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
@@ -304,14 +307,14 @@ header::after {
 }
 
 /* CONTATOS */
-#contatos {
+#section-contatos {
     background-color: var(--cor2);
     text-align: center;
     bottom: 0;
     width: 100%;
 }
 
-#contatos > h2 {
+#section-contatos > h2 {
     font-size: 2.5rem;
     padding-top: 4rem;
 }
@@ -319,7 +322,6 @@ header::after {
 .icons {
     padding: 30px 25px 80px; 
     display: inline-block;
-
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
