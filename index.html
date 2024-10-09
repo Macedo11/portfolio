@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | João Macedo</title>
+
+    <script defer src="./scripts.js"></script>
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mq.css">
     <link rel="shortcut icon" href="./image/koalas-favicon.ico" type="image/x-icon">
@@ -137,57 +140,51 @@
                         </p>
                     </div>
 
-                    <div class="div-projeto hidden" id="box4"> <!--Em breve-->
-                        <a href="#" target="_blank">
-                            <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
-                        </a>
-                        <br>
-                        <p>
-                            <a href="#" class="legenda-projeto">
-                                (Em breve)
-                            </a>
-                        </p>
-                    </div>
-                    
                     <div id="hidden">
-                        <div class="div-projeto hidden" id="box5" > <!--Em breve-->
-                            <a href="#" target="_blank">
-                                <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
-                            </a>
-                            <br>
-                            <p>
-                                <a href="#" class="legenda-projeto">
-                                    (Em breve)
+                       <div id="div-hidden">
+                            <div class="div-projeto hidden" id="box4"> <!--Em breve-->
+                                <a href="#" target="_blank">
+                                    <img src="./image/em-breve.png"     alt="Imagem de em breve"    class="img-projeto">
                                 </a>
-                            </p>
-                        </div>
-    
-                        <div class="div-projeto hidden" id="box6"> <!--Em breve-->
-                            <a href="#" target="_blank">
-                                <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
-                            </a>
-                            <br>
-                            <p>
-                                <a href="#" class="legenda-projeto">
-                                    (Em breve)
+                                <br>
+                                <p>
+                                    <a href="#" class="legenda-projeto">
+                                        (Em breve)
+                                    </a>
+                                </p>
+                            </div>
+                        
+                        
+                            <div class="div-projeto hidden" id="box5" > <!--Em breve-->
+                                <a href="#" target="_blank">
+                                    <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
                                 </a>
-                            </p>
-                        </div>
+                                <br>
+                                <p>
+                                    <a href="#" class="legenda-projeto">
+                                        (Em breve)
+                                    </a>
+                                </p>
+                            </div>
+        
+                            <div class="div-projeto hidden" id="box6"> <!--Em breve-->
+                                <a href="#" target="_blank">
+                                    <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
+                                </a>
+                                <br>
+                                <p>
+                                    <a href="#" class="legenda-projeto">
+                                        (Em breve)
+                                    </a>
+                                </p>
+                            </div>
+                       </div>
                     </div>
+                    <button id="btn_projetos" onclick="click_btn()">Veja mais</button>
                 </div>
-                <button id="btn-projetos" onclick="click_btn()">Ver mais</button>
 
-        </section> 
-                <script>
-                    function click_btn() {
-                        var divs = document.getElementById('hidden')
-                        divs.forEach(div => {
-                            if (div.style.display === 'none') {
-                                dis.style.display = 'none'
-                            }
-                        });
-                    }
-                </script>
+
+        </section>
         <!-- HABILIDADES -->
         <section class="section-habilidades" id="section-habilidades">
             <h2>Habilidades</h2>

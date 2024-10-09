@@ -264,7 +264,7 @@ header::after {
     text-decoration: none;
 }
 
-#btn-projetos {
+#btn_projetos {
     background-color: var(--cor1);
     color: var(--cor2);
     font-size: 1em;
@@ -277,15 +277,23 @@ header::after {
     transition: all 0.4s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
-#btn-projetos:hover {
+#btn_projetos:hover {
     transform: scale(1.1, 1.1);
     background-color: var(--cor2);
     color: var(--cor1);
     border: solid 3px var(--cor1);
 }
 
-.hidden {
+#hidden {
     display: none;
+    width: 100%;
+}
+
+#div-hidden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 /* HABILIDADES */
 .section-habilidades {
