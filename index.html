@@ -233,16 +233,20 @@
     
     <script>
         function clicou() {
-            var div = document.getElementById('list')
-            var h1 = document.getElementById('aheader')
+            var div = document.getElementById('list');
+            var h1 = document.getElementById('aheader');
+
+            var elemento = document.querySelector("#list ul");
 
             if (window.getComputedStyle(div).display === 'none') {
-                div.style.display = 'block'
-                h1.style.display = 'none'
+                div.style.display = 'block';
+                h1.style.display = 'none';
+                elemento.classList.add("visivel");
 
             } else {
-                div.style.display = 'none'
-                h1.style.display = 'block'
+                div.style.display = 'none';
+                h1.style.display = 'block';
+                elemento.classList.remove("visivel")
             }
         }
     </script>

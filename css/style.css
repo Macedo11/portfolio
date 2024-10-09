@@ -92,8 +92,8 @@ header::after {
     
 }
 
- #list > ul {
-    backdrop-filter: blur(4px);
+#list > ul {
+    
     background-color: rgba(0, 0, 0, 0.733);
     list-style: none;
     position: fixed;
@@ -106,6 +106,11 @@ header::after {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 3s;
+}
+
+#list > ul.visivel {
+    backdrop-filter: blur(3px);
 }
 
 #list li {
