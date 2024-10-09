@@ -405,12 +405,12 @@ header::after {
     opacity: 0;
     filter: blur(8px);
     transform: translateX(-100%);
-    transition: all 0.9s;
+    transition: all 0.5s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    transition: all 0.8s;
+    transition: all 0.5s;
 }
