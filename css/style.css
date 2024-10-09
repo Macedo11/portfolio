@@ -351,7 +351,7 @@ header::after {
     width: 100%;
 }
 
-#section-contatos > h2 {
+#container-contatos > h2 {
     font-size: 2.5rem;
     padding-top: 4rem;
 }
@@ -375,4 +375,20 @@ header::after {
 .logo {
     width: 4em;
     padding-bottom: 1rem;
+}
+
+/* EFEITOS */
+
+.scroll {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateX(-100%);
+    transition: all 0.6s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
 }

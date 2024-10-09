@@ -1,3 +1,5 @@
+
+// BOTÃO VEJA MAIS
 var hidden = document.querySelector('#hidden');
 var btn = document.querySelector('#btn_projetos');
 
@@ -11,3 +13,19 @@ btn.addEventListener('click', function() {
         btn.textContent = 'Veja mais'
     }
 })
+
+// EFEITO BLUR
+
+const myObserver = new IntersectionObserver((entries) => {
+    entries.forEach( (entry) => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('show');
+        } else {
+            entry.target.classList.remove('show');
+        }
+    })
+})
+
+const elements = document.querySelectorAll('.scroll')
+
+elements.forEach((element) => myObserver.observe(element))
