@@ -102,7 +102,7 @@
         <section class="section-projetos" id="section-projetos">
             <h2>Projetos</h2>
                 <div class="projetos">
-                    <div class="div-projeto"> <!-- MARIO -->
+                    <div class="div-projeto" id="box1"> <!-- MARIO -->
                         <a href="https://macedo11.github.io/projeto-mario/" target="_blank">
                             <img src="./image/projeto-mario.png" alt="Projeto Mario" class="img-projeto">
                         </a>
@@ -113,7 +113,7 @@
                             </a>
                         </p>
                     </div>
-                    <div class="div-projeto"> <!-- E.F Cleanyng -->
+                    <div class="div-projeto" id="box2"> <!-- E.F Cleanyng -->
                         <a href="https://macedo11.github.io/projetoFacul_joao/" target="_blank">
                             <img src="./image/projeto-E.F-em_breve.png" alt="Projeto Mario" class="img-projeto">
                         </a>
@@ -125,7 +125,7 @@
                         </p>
                     </div>
 
-                    <div class="div-projeto"> <!--Em breve-->
+                    <div class="div-projeto" id="box3"> <!--Em breve-->
                         <a href="#" target="_blank">
                             <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
                         </a>
@@ -137,7 +137,7 @@
                         </p>
                     </div>
 
-                    <div class="div-projeto"> <!--Em breve-->
+                    <div class="div-projeto hidden" id="box4"> <!--Em breve-->
                         <a href="#" target="_blank">
                             <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
                         </a>
@@ -149,31 +149,45 @@
                         </p>
                     </div>
                     
-                    <div class="div-projeto"> <!--Em breve-->
-                        <a href="#" target="_blank">
-                            <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
-                        </a>
-                        <br>
-                        <p>
-                            <a href="#" class="legenda-projeto">
-                                (Em breve)
+                    <div id="hidden">
+                        <div class="div-projeto hidden" id="box5" > <!--Em breve-->
+                            <a href="#" target="_blank">
+                                <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
                             </a>
-                        </p>
-                    </div>
-
-                    <div class="div-projeto"> <!--Em breve-->
-                        <a href="#" target="_blank">
-                            <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
-                        </a>
-                        <br>
-                        <p>
-                            <a href="#" class="legenda-projeto">
-                                (Em breve)
+                            <br>
+                            <p>
+                                <a href="#" class="legenda-projeto">
+                                    (Em breve)
+                                </a>
+                            </p>
+                        </div>
+    
+                        <div class="div-projeto hidden" id="box6"> <!--Em breve-->
+                            <a href="#" target="_blank">
+                                <img src="./image/em-breve.png" alt="Imagem de em breve" class="img-projeto">
                             </a>
-                        </p>
+                            <br>
+                            <p>
+                                <a href="#" class="legenda-projeto">
+                                    (Em breve)
+                                </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <button id="btn-projetos" onclick="click_btn()">Ver mais</button>
+
         </section> 
+                <script>
+                    function click_btn() {
+                        var divs = document.getElementById('hidden')
+                        divs.forEach(div => {
+                            if (div.style.display === 'none') {
+                                dis.style.display = 'none'
+                            }
+                        });
+                    }
+                </script>
         <!-- HABILIDADES -->
         <section class="section-habilidades" id="section-habilidades">
             <h2>Habilidades</h2>

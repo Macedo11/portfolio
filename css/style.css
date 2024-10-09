@@ -264,7 +264,29 @@ header::after {
     text-decoration: none;
 }
 
+#btn-projetos {
+    background-color: var(--cor1);
+    color: var(--cor2);
+    font-size: 1em;
+    font-weight: 800;
+    height: 2.5em;
+    width: 9em;
+    border: solid 2px var(--cor2);
+    border-radius: 3em;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.100, 0.50, 0.40, 1);
+}
 
+#btn-projetos:hover {
+    transform: scale(1.1, 1.1);
+    background-color: var(--cor2);
+    color: var(--cor1);
+    border: solid 3px var(--cor1);
+}
+
+.hidden {
+    display: none;
+}
 /* HABILIDADES */
 .section-habilidades {
     text-align: center;
