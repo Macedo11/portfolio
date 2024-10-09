@@ -90,7 +90,8 @@ header::after {
     display: none;
 }
 
-#list > ul {   
+#list > ul {
+    backdrop-filter: blur(3px);
     background-color: rgba(0, 0, 0, 0.733);
     list-style: none;
     position: fixed;

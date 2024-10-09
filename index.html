@@ -15,34 +15,54 @@
     <header>
         <div id="header-container">
             <a></a>
-
             <a href="#" id="aheader">
                 Portfólio
             </a>
-
             <nav  id="list">
                 <ul>
-                    <li>
+                    <li onclick="click_a()">
                         <a href="#section-sobre-mim">Sobre</a>
                     </li>
-                    <li>
+                    <li onclick="click_a()">
                         <a href="#section-projetos">Projetos</a>
                     </li>
-                    <li>
+                    <li onclick="click_a()">
                         <a href="#section-habilidades">Habilidades</a>
                     </li>
-                    <li>
+                    <li onclick="click_a()">
                         <a href="#section-contatos">Contatos</a>
                     </li>
                 </ul>
             </nav>
-
             <i id="burguer" class="material-symbols-outlined" aria-label="Abrir Menu" onclick="clicou()">
                     menu
             </i>
         </div>
     </header>
 
+    <script>
+        function clicou() {
+            var div = document.getElementById('list');
+            var h1 = document.getElementById('aheader');
+
+            if (window.getComputedStyle(div).display === 'none') {
+                div.style.display = 'block';
+                h1.style.display = 'none';
+
+            } else {
+                div.style.display = 'none';
+                h1.style.display = 'block';
+            }
+        }
+
+        function click_a() {
+            var div = document.getElementById('list');
+            var h1 = document.getElementById('aheader');
+
+            div.style.display = 'none';
+            h1.style.display = 'block';
+        }
+    </script>
     <!-- APRESENTAÇÃO -->
     <main>
         <section class="apresentacao" id="section-sobre-mim">
@@ -68,7 +88,6 @@
                     </a>
                 </div>
             </div>
-            
             <!-- SOBRE MIM -->
             <div class="div-sobre">
                 <div class="sobre">
@@ -79,7 +98,6 @@
                 </div>
             </div>
         </section>
-
         <!-- PROJETOS -->
         <section class="section-projetos" id="section-projetos">
             <h2>Projetos</h2>
@@ -155,8 +173,7 @@
                         </p>
                     </div>
                 </div>
-        </section>
-        
+        </section> 
         <!-- HABILIDADES -->
         <section class="section-habilidades" id="section-habilidades">
             <h2>Habilidades</h2>
@@ -187,8 +204,7 @@
                 </div>
             </div>
         </section>
-    </main>
-    
+    </main>  
     <!-- CONTATO -->
     <footer id="section-contatos">
         <h2>Contatos</h2>
@@ -230,25 +246,5 @@
             </div>
         </div>
     </footer>
-    
-    <script>
-        function clicou() {
-            var div = document.getElementById('list');
-            var h1 = document.getElementById('aheader');
-
-            var elemento = document.querySelector("#list ul");
-
-            if (window.getComputedStyle(div).display === 'none') {
-                div.style.display = 'block';
-                h1.style.display = 'none';
-                elemento.classList.add("visivel");
-
-            } else {
-                div.style.display = 'none';
-                h1.style.display = 'block';
-                elemento.classList.remove("visivel")
-            }
-        }
-    </script>
 </body>
 </html>
