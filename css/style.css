@@ -183,7 +183,7 @@ header::after {
 }
 
 .div-icon-presentation > a > img {
-    width: 2.5em;
+    width: 3em;
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
 }
 
@@ -405,12 +405,12 @@ header::after {
     opacity: 0;
     filter: blur(8px);
     transform: translateX(-100%);
-    transition: all 0.6s;
+    transition: all 0.9s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-    transition: all 1s;
+    transition: all 0.8s;
 }
