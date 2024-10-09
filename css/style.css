@@ -108,11 +108,23 @@ header::after {
     align-items: center;
 }
 
+#list li {
+    transition: all 0.3s cubic-bezier(0.100, 0.50, 0.40, 1);
+}
+
+#list li:hover {
+    transform: scale(1.1, 1.1);
+}
+
 #list a{
     font-size: 3em;
     font-weight: 600;
     color: white;
     text-decoration: none;
+}
+
+#list a:hover {
+    color:#8d7a6a;
 }
 
 /* APRESENTAÇÃO */
