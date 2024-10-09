@@ -3,6 +3,7 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 795px) {
+    /* APRESENTAÇÃO */
     .intro {
         font-size: 0.7em;
     }
@@ -10,6 +11,11 @@
     .img-profile {
         width: 230px;
         margin-top: 20px;
+    }
+
+    /* PROJETOS */
+    .section-projetos {
+        width: 100%;
     }
 }
 

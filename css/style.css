@@ -216,10 +216,9 @@ header::after {
 
 /* PROJETOS */
 .section-projetos {
-    width: 77%;
+    width: 42em;
     padding-top: 4em;
     margin: auto;
-    background-color: aqua;
 }
 
 .section-projetos > h2 {
@@ -233,13 +232,12 @@ header::after {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
-    background-color: green;
 }
 
 .div-projeto {
     background-color: var(--cor2);
     border: solid 6px var(--cor2);
-    width: 270px;
+    width: 300px;
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.50, 1);
 }
 
