@@ -17,6 +17,7 @@
 
 html {
     background-color: var(--cor3);
+    scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
