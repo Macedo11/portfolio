@@ -216,9 +216,10 @@ header::after {
 
 /* PROJETOS */
 .section-projetos {
-    width: 80%;
+    width: 77%;
     padding-top: 4em;
     margin: auto;
+    background-color: aqua;
 }
 
 .section-projetos > h2 {
@@ -231,14 +232,14 @@ header::after {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
     gap: 30px;
+    background-color: green;
 }
 
 .div-projeto {
     background-color: var(--cor2);
     border: solid 6px var(--cor2);
-    width: 300px;
+    width: 270px;
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.50, 1);
 }
 
@@ -262,6 +263,12 @@ header::after {
     font-size: 1em;
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.685);
     text-decoration: none;
+}
+
+.div-btn {
+    padding-top: 2em;
+    display: flex;
+    justify-content: center;
 }
 
 #btn_projetos {
