@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | João Macedo</title>
 
-    <script defer src="./scripts.js"></script>
+    <script defer src="./js/scripts.js"></script>
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mq.css">
@@ -37,35 +37,12 @@
                     </li>
                 </ul>
             </nav>
-            <i id="burguer" class="material-symbols-outlined" aria-label="Abrir Menu" onclick="clicou()">
+            <i id="burguer" class="material-symbols-outlined" aria-label="Abrir Menu" onclick="clickBurguer()">
                     menu
             </i>
         </div>
     </header>
 
-    <script>
-        function clicou() {
-            var div = document.getElementById('list');
-            var h1 = document.getElementById('aheader');
-
-            if (window.getComputedStyle(div).display === 'none') {
-                div.style.display = 'block';
-                h1.style.display = 'none';
-
-            } else {
-                div.style.display = 'none';
-                h1.style.display = 'block';
-            }
-        }
-
-        function click_a() {
-            var div = document.getElementById('list');
-            var h1 = document.getElementById('aheader');
-
-            div.style.display = 'none';
-            h1.style.display = 'block';
-        }
-    </script>
     <!-- APRESENTAÇÃO -->
     <main>
         <section class="apresentacao" id="section-sobre-mim">

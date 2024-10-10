@@ -1,3 +1,27 @@
+// BURGUER
+function clickBurguer() {
+    var div = document.getElementById('list');
+    var h1 = document.getElementById('aheader');
+
+    if (window.getComputedStyle(div).display === 'none') {
+        div.style.display = 'block';
+        h1.style.display = 'none';
+
+    } else {
+        div.style.display = 'none';
+        h1.style.display = 'block';
+    }
+}
+
+// BURGUER > NAV
+function click_a() {
+    var div = document.getElementById('list');
+    var h1 = document.getElementById('aheader');
+
+    div.style.display = 'none';
+    h1.style.display = 'block';
+}
+
 // BOTÃO VEJA MAIS
 var hidden = document.querySelector('#hidden');
 var btn = document.querySelector('#btn_projetos');

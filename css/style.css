@@ -158,14 +158,14 @@ header::after {
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.44, 1)
 }
 
+.btns:hover {
+    transform:scale(1.1, 1.1);
+}
+
 .btns > a {
     color: var(--cor1);
     padding: 5px;
     text-decoration: none;
-}
-
-.btns:hover {
-    transform: scale(1.10, 1.10);
 }
 
 .info-presentation {
