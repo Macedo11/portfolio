@@ -261,6 +261,7 @@ header::after {
     border: solid 6px var(--cor2);
     width: 300px;
     transition: all 0.3s cubic-bezier(0.100, 0.50, 0.50, 1);
+    z-index: 100;
 }
 
 .div-projeto > p {
@@ -312,8 +313,21 @@ header::after {
 }
 
 #hidden {
-    display: none;
     width: 100%;
+    display: none;
+    animation: moveToBottom 0.5s;
+}
+
+@keyframes moveToBottom {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    top {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 #div-hidden {
