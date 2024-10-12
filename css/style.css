@@ -124,6 +124,8 @@ header::after {
     font-weight: 600;
     color: white;
     text-decoration: none;
+
+    animation: moveToBottom 3s
 }
 
 #list a:hover {
